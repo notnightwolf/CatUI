@@ -23,4 +23,5 @@ and put it into your cvr directory.
 5. Create your button textures and change the image paths for all of your buttons.
 
 You should keep blankbtn.png as sprite in CatUIToggleButton.cs otherwise the green indicator outline will not be displayed correctly.
+
 Build your DLL :)
