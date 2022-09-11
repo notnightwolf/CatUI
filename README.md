@@ -10,3 +10,5 @@ Buttons:
  
 Sliders:
 - coming soon...
+
+Make sure to download CatUI.zip and put the extracted folder into your cvr directory.
