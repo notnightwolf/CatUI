@@ -21,5 +21,6 @@ and put it into your cvr directory.
 - start IEnumerator InitializeCatUI() on ApplicationStart.
 4. Scroll down in CatUIMain.cs and add your buttons in CatUIMenu() (there are 3 button examples)
 5. Create your button textures and change the image paths for all of your buttons.
+
 You should keep blankbtn.png as sprite in CatUIToggleButton.cs otherwise the green indicator outline will not be displayed correctly.
 Build your DLL :)
