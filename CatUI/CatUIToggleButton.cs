@@ -35,7 +35,7 @@ namespace CatUI
 
             btnh.AddComponent<Image>();
             imgh = btnh.GetComponent<Image>();
-            imgh.sprite = (Environment.CurrentDirectory + "/catclient/blankbtn.png").LoadSpriteFromDisk();
+            imgh.sprite = (Environment.CurrentDirectory + "/CatUI/blankbtn.png").LoadSpriteFromDisk();
             imgh.color = new Color(0, 0, 0, 1);
             imgh.enabled = defaultvalue;
 
