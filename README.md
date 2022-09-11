@@ -7,6 +7,5 @@ Buttons:
 - simple click button
 - toggle button
 - menu button
-- 
 Sliders:
 - coming soon...
