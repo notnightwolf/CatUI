@@ -11,4 +11,15 @@ Buttons:
 Sliders:
 - coming soon...
 
-Make sure to download CatUI.zip and put the extracted folder into your cvr directory.
+Instructions:
+1. Download these Folders: https://github.com/nwightwolf/CatUI/tree/main/CatUI + https://github.com/nwightwolf/CatUI/tree/main/Utils (includes cs files)
+and put them into your project.
+2. Download this Folder: https://github.com/nwightwolf/CatUI/releases/download/1.0/CatUI.zip (includes textures)
+and put it into your cvr directory.
+3. Create your mod and do it like here: https://github.com/nwightwolf/CatUI/blob/main/CatUI.cs
+- Patch must be made that GameObject CatUIMain.CatUIPanel shows up at the same time as the quickmenu does on ApplicationStart.
+- start IEnumerator InitializeCatUI() on ApplicationStart.
+4. Scroll down in CatUIMain.cs and add your buttons in CatUIMenu() (there are 3 button examples)
+5. Create your button textures and change the image paths for all of your buttons.
+You should keep blankbtn.png as sprite in CatUIToggleButton.cs otherwise the green indicator outline will not be displayed correctly.
+Build your DLL :)
